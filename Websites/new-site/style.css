@@ -1,0 +1,18 @@
+body {
+    background:rgb(249, 217, 248) url('img folder/flower.jpeg') no-repeat center fixed;
+    background-size: 300px;
+    font-family: monospace; 
+}
+p {
+    color:red;
+    background-color: white;
+    padding: 50px; 
+}
+
+.special{
+    color:azure;
+    background: darkblue;
+    font-size: 150%;
+    font-family: curisve;
+    margin: 30px;
+}
