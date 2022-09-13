@@ -1,0 +1,55 @@
+head {
+    color: hotpink;
+    font-family: 'Kanit', sans-serif;
+    width: 20px;
+    height: 20px;
+    background-color:lightpink;
+    border:2px hotpink; 
+    
+}
+
+    
+body {
+    background-color:lightpink;
+    font-family: 'kanit', sans-serif;
+    
+}
+p {
+    color:hotpink;
+    font-size: 18px;
+    text-align: center;
+   
+}
+
+.special2 {
+    color:hotpink;
+    font-weight:bold;
+    font-size:40px;
+    text-align: center;
+
+}
+
+.special{
+    color:hotpink;  
+    margin: 60px;
+    font-family: 'kanit', sans-serif;
+
+    
+}
+
+.bold{
+    font-weight: bold;
+}
+
+a:link {
+    text-decoration:none;
+}
+
+.line {
+    background:hotpink; 
+    position: relative;
+    left: 50px;
+    width: 1300px;
+    height:5px;
+    margin: 20px;
+}

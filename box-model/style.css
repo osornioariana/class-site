@@ -1,0 +1,28 @@
+* {
+    box-sizing:border-box;
+}
+body {
+    margin:0;
+    background:pink;
+}
+.content {
+    background-color:bisque;
+    color:salmon;
+    width:200px;
+    height:200px;
+    padding:30px;
+    border:10px solid salmon;
+    margin: 50px auto;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+.border {
+    background-color:bisque;
+    color:salmon;
+    width:200px;
+    height:200px;
+    padding:30px;
+    border:10px solid salmon;
+    margin:50px;
+    box-sizing:border-box;
+}

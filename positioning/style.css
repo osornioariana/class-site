@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+head {
+    margin-top:20px;
+}
+
+body {
+    margin:20px;
+}
+
+.box {
+    background:lavender;
+    width:200px;
+    height:200px; 
+    border:1px solid; 
+    margin-top:10px;
+
+}
+
+.relative {
+    position:relative;
+    background:cornflowerblue;
+    bottom: 100px;
+    left: 100px; 
+}
+
+.fixed {
+    position:fixed;
+    background:lavenderblush;
+    bottom: 20px;
+    right: 20px;
+}
+
+.absolute {
+    position:absolute;
+    background: plum;
+    top: 20px;
+    right: 20px;
+    width: 60px;
+    height: 50px;
+}
+
+.sticky {
+    position:sticky;
+    background: palevioletred;
+    top:0;
+}
