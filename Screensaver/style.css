@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+
+head {
+    margin:0;
+}
+body {
+    margin:0;
+    background-color:black;
+}
+
+.flex {
+    display:flex;
+    width:100vw;
+    height:100vh;
+    justify-content:space-around;
+    flex-direction: column;
+}
+
+
+.line {
+    
+    height:3px;
+    color:white;
+}
+.square {
+   
+    
+    margin: 1px;
+    position:absolute;
+
+    animation: move 15s 3s  linear, jump 2s ease infinite;
+}
+
+.square1 {
+    
+    margin: 1px;
+    position:absolute;
+    
+    animation: move 12s 3s  linear, jump2 2s ease infinite;
+}
+
+.square2 {
+    
+    margin: 1px;
+    position:absolute;
+
+    animation: move 17s  3s  linear, jump3 2s ease infinite;
+}
+
+.square3 {
+    
+    margin: 1px;
+    position:absolute;
+
+    animation: move 14s  3s  linear, jump4 2s ease infinite;
+}
+ 
+img {
+    z-index: 1;
+   
+}
+
+
+@keyframes move {
+    0% {
+        transform:translateX(0);
+    }
+    100% {
+        transform:translateX(100vw);
+    }
+}
+@keyframes jump {
+    0%{top:160px}
+    50%{top:130px}
+    100%{top:160px}
+}
+@keyframes jump2 {
+    0%{top:300px}
+    50%{top:250px}
+    100%{top:300px}
+}
+
+@keyframes jump3 {
+    0%{top:450px}
+    50%{top:400px}
+    100%{top:450px}
+}
+@keyframes jump4 {
+    0%{top:600px}
+    50%{top:550px}
+    100%{top:600px}
+}   
