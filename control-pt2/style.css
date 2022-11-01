@@ -1,0 +1,229 @@
+*{
+  box-sizing: border-box;
+}
+
+p {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+div {
+  font-family: 'Courier New', Courier, monospace;
+}
+button {
+  padding:10px;
+  cursor: pointer;
+  background-color: red;
+  border-radius: 50%;
+  width:100px;
+  height: 100px;
+  position: absolute; 
+}
+
+.circle {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: red;
+  width:100px;
+  height:100px;
+  border-radius:50%;
+  position:absolute;
+  margin-left: 1200px;
+}
+
+.circle2 {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: red;
+  width:100px;
+  height:100px;
+  border-radius:50%;
+  margin-left: 160px;
+  margin-top: 300px;
+  position:absolute;
+}
+
+.circle3 {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: red;
+  width:100px;
+  height:100px;
+  border-radius:50%;
+  margin-left: 900px;
+  margin-top: 500px;
+  position:absolute;
+}
+
+.circle4 {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: red;
+  width:100px;
+  height:100px;
+  border-radius:50%;
+  margin-left: 440px;
+  margin-top: 220px;
+  position:absolute;
+}
+
+.circle5 {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: red;
+  width:100px;
+  height:100px;
+  border-radius:50%;
+  margin-left: 100px;
+  margin-top: 600px;
+  position:absolute;
+}
+
+.circle6 {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: red;
+  width:100px;
+  height:100px;
+  border-radius:50%;
+  margin-left: 450px;
+  margin-top: 625px;
+  position:absolute;
+}
+
+.circle7 {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: red;
+  width:100px;
+  height:100px;
+  border-radius:50%;
+  margin-left: 700px;
+  margin-top: 100px;
+  position:absolute;
+}
+
+.circle8 {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: red;
+  width:100px;
+  height:100px;
+  border-radius:50%;
+  margin-left: 1200px;
+  margin-top: 370px;
+  position:absolute;
+}
+
+.word1 {
+  position:absolute;
+  margin-left: 200px;
+  margin-top: 55px;
+  z-index: 1;
+  animation: opacity, infinite;
+  animation-duration: 4s;
+  animation-delay: 8s;
+  animation-fill-mode: forwards;
+}
+
+.word2 {
+  position:absolute;
+  margin-left:1020px;
+  margin-top: 230px;
+  z-index: 1;
+  animation: opacity, infinite;
+  animation-duration: 4s;
+  animation-delay: 8s;
+  animation-fill-mode: forwards;
+}
+
+.word3 {
+  position:absolute;
+  margin-left:570px;
+  margin-top: 420px;
+  z-index: 1;
+  animation: opacity, infinite;
+  animation-duration: 4s;
+  animation-delay: 8s;
+  animation-fill-mode: forwards;
+}
+
+.word4 {
+  position:absolute;
+  margin-left:1190px;
+  margin-top: 670px;
+  z-index: 1;
+  animation: opacity, infinite;
+  animation-duration: 4s;
+  animation-delay: 8s;
+  animation-fill-mode: forwards;
+}
+
+
+#reveal-btn {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: red;
+  width:100px;
+  height:100px;
+  border-radius:50%;
+  margin-left: 180px;
+  margin-top: 30px;
+}
+
+#reveal-btn2 {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: red;
+  width:100px;
+  height:100px;
+  border-radius:50%;
+  margin-left: 1000px;
+  margin-top: 200px;
+}  
+
+#reveal-btn3 {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: red;
+  width:100px;
+  height:100px;
+  border-radius:50%;
+  margin-left: 550px;
+  margin-top: 400px;
+} 
+
+
+#reveal-btn4 {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: red;
+  width:100px;
+  height:100px;
+  border-radius:50%;
+  margin-left: 1180px;
+  margin-top: 620px;
+}  
+
+@keyframes opacity {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+
+}
