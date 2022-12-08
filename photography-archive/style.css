@@ -1,0 +1,316 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    font-family: 'Epilogue', sans-serif;
+
+}
+
+.title {
+    text-align: center;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    margin-bottom: 5px;
+    color: #b07591;
+}
+
+.heading{
+    text-align: center;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    color: #b07591;
+}
+
+img {
+    transition:transform 0.25s ease;
+}
+
+img:hover {
+    -webkit-transform:scale(1.5); /* or some other value */
+    transform:scale(1.5);
+}
+
+.image1 {
+    width: 400px;
+    height:600px;
+    margin-left: 200px;
+    box-shadow: 5px 5px 5px rgb(196, 202, 203);
+}
+
+.box1{
+    background-color: rgb(249, 212, 243);
+    width:200px;
+    height:100px;
+    opacity: 70%;
+    margin-left: 50px;
+    margin-top: -100px;
+    font-family: 'epilogue', sans-serif, black;
+    font-style: italic;
+}
+
+.image2 {
+    width: 300px;
+    height:370px;
+    margin-left: 800px;
+    margin-top: -615px;
+    box-shadow: 5px 5px 5px rgb(196, 202, 203); 
+}
+
+.box2{
+    background-color: rgb(249, 212, 243);
+    width:270px;
+    height:100px;
+    opacity: 70%;
+    margin-left: 1060px;
+    margin-top: -130px;
+    font-family: 'epilogue', sans-serif, black;
+    font-style: italic;
+    text-align: right;
+}
+
+.image3 {
+    width: 350px;
+    height:430px;
+    margin-left: 200px;
+    margin-top: 400px;
+    box-shadow: 5px 5px 5px rgb(196, 202, 203); 
+}
+
+.box3{
+    background-color: rgb(249, 212, 243);
+    width:220px;
+    height:100px;
+    opacity: 70%;
+    margin-left: 20px;
+    margin-top: -50px;
+    font-family: 'epilogue', sans-serif, black;
+    font-style: italic;
+    text-align: left;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.image4 {
+    width: 450px;
+    height:555px;
+    margin-left: 900px;
+    margin-top: -425px;
+    box-shadow: 5px 5px 5px rgb(196, 202, 203); 
+}
+
+.box4{
+    background-color: rgb(249, 212, 243);
+    width:270px;
+    height:100px;
+    opacity: 70%;
+    margin-left: 740px;
+    margin-top: -620px;
+    font-family: 'epilogue', sans-serif, black;
+    font-style: italic;
+    text-align: right;
+}
+
+.image5 {
+    width: 300px;
+    height:450px;
+    margin-left: 480px;
+    margin-top: 700px;
+    box-shadow: 5px 5px 5px rgb(196, 202, 203); 
+}
+
+.box5{
+    background-color: rgb(249, 212, 243);
+    width:210px;
+    height:80px;
+    opacity: 70%;
+    margin-left: 510px;
+    margin-top: -515px;
+    font-family: 'epilogue', sans-serif, black;
+    font-style: italic;
+    text-align: left;    
+    
+}
+
+.image6 {
+    width: 300px;
+    height:450px;
+    margin-left: 100px;
+    margin-top: -10px;
+    box-shadow: 5px 5px 5px rgb(196, 202, 203); 
+}
+
+.box6{
+    background-color: rgb(249, 212, 243);
+    width:270px;
+    height:100px;
+    opacity: 70%;
+    margin-left: 15px;
+    margin-top: -50px;
+    font-family: 'epilogue', sans-serif, black;
+    font-style: italic;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.image7 {
+    width: 400px;
+    height:600px;
+    margin-left: 900px;
+    margin-top: -450px;
+    box-shadow: 5px 5px 5px rgb(196, 202, 203); 
+}
+
+.box7{
+    background-color: rgb(249, 212, 243);
+    width:270px;
+    height:100px;
+    opacity: 70%;
+    margin-left: 1060px;
+    margin-top: -10px;
+    font-family: 'epilogue', sans-serif, black;
+    font-style: italic;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.image8 {
+    width:450px;
+    height:560px;
+    margin-left: 900px;
+    margin-top: 150px;
+    box-shadow: 5px 5px 5px rgb(196, 202, 203); 
+}
+
+.box8{
+    background-color: rgb(249, 212, 243);
+    width:270px;
+    height:100px;
+    opacity: 70%;
+    margin-left: 200px;
+    margin-top: -170px;
+    font-family: 'epilogue', sans-serif, black;
+    font-style: italic;
+    text-align: left;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.image9 {
+    width:300px;
+    height:450px;
+    margin-left: 300px;
+    margin-top: -500px;
+    box-shadow: 5px 5px 5px rgb(196, 202, 203); 
+}
+
+.box9{
+    background-color: rgb(249, 212, 243);
+    width:230px;
+    height:100px;
+    opacity: 70%;
+    margin-left: 750px;
+    margin-top: 90px;
+    font-family: 'epilogue', sans-serif, black,;
+    font-style: italic;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+
+}
+
+.image10 {
+    width:400px;
+    height:590px;
+    margin-left: 100px;
+    margin-top: 200px;
+    box-shadow: 5px 5px 5px rgb(196, 202, 203); 
+}
+
+.box10{
+    background-color: rgb(249, 212, 243);
+    width:270px;
+    height:100px;
+    opacity: 70%;
+    margin-left: 300px;
+    margin-top:-650px;
+    font-family: 'epilogue', sans-serif, black;
+    font-style: italic;
+    text-align: right;
+}
+
+.image11 {
+    width:350px;
+    height:425px;
+    margin-left: 900px;
+    margin-top: -60px;
+    box-shadow: 5px 5px 5px rgb(196, 202, 203); 
+}
+
+.box11{
+    background-color: rgb(249, 212, 243);
+    width:270px;
+    height:100px;
+    opacity: 70%;
+    margin-left: 700px;
+    margin-top: -70px;
+    font-family: 'epilogue', sans-serif, black;
+    font-style: italic;
+    text-align: left;
+}
+
+.image12 {
+    width:450px;
+    height:555px;
+    margin-left: 700px;
+    margin-top: 170px;
+    box-shadow: 5px 5px 5px rgb(196, 202, 203); 
+}
+
+.box12{
+    background-color: rgb(249, 212, 243);
+    width:310px;
+    height:100px;
+    opacity: 70%;
+    margin-left: 1100px;
+    margin-top: -300px;
+    font-family: 'epilogue', sans-serif, black;
+    font-style: italic;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.image13 {
+    width:400px;
+    height:500px;
+    margin-left: 70px;
+    margin-top: -110px;
+    box-shadow: 5px 5px 5px rgb(196, 202, 203); 
+}
+
+.box13{
+    background-color: rgb(249, 212, 243);
+    width:310px;
+    height:100px;
+    opacity: 70%;
+    margin-left: 70px;
+    margin-top: -560px;
+    font-family: 'epilogue', sans-serif, black;
+    font-style: italic;
+    text-align: left;
+
+}
+
+
+
